@@ -1,10 +1,8 @@
 export GOPATH=$HOME/gocode
 
 pathdirs=(
-    $HOME/repos/linux_scripts;
+    $HOME/repos/mac_scripts;
     /usr/lib/go/bin;
-    $HOME/androidAppEntwicklung/jdk1.8.0_25/bin;
-    $HOME/private_linux_scripts;
     $HOME/gocode/bin
 )
 for dir in $pathdirs; do
@@ -13,4 +11,5 @@ for dir in $pathdirs; do
     fi
 done
 
-export LD_LIBRARY_PATH=/opt/boost/boost_1_57_0/stage/lib
+
+export PATH="$HOME/.cargo/bin:$PATH"
