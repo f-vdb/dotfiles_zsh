@@ -2,8 +2,9 @@ export GOPATH=$HOME/gocode
 
 pathdirs=(
     $HOME/repos/mac_scripts;
-    /usr/lib/go/bin;
-    $HOME/gocode/bin
+    /usr/local/go/bin;
+    $HOME/gocode/bin;
+    $HOME/.cargo/bin;
 )
 for dir in $pathdirs; do
     if [ -d $dir ]; then
@@ -12,4 +13,3 @@ for dir in $pathdirs; do
 done
 
 
-export PATH="$HOME/.cargo/bin:$PATH"
