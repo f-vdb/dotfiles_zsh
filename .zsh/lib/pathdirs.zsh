@@ -1,7 +1,7 @@
 export GOPATH=$HOME/gocode
 
 pathdirs=(
-    $HOME/repos/mac_scripts;
+    $HOME/reposScriptsAndDotfiles/mac_scripts;
     /usr/local/go/bin;
     $HOME/gocode/bin;
     $HOME/.cargo/bin;
