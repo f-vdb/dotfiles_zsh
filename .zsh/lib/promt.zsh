@@ -22,4 +22,5 @@ promptinit
 #zstyle ':vcs_info:(sv[nk]|bzr):*' branchformat '%b%F{1}:%F{3}%r'
 #precmd () { vcs_info }
 
-PROMPT='$fg[blue]%n $fg[green]%~$fg[red]${vcs_info_msg_0_}$fg[green] # %{$reset_color%}'
+#PROMPT='$fg[blue]%n $fg[green]%~$fg[red]${vcs_info_msg_0_}$fg[green] # %{$reset_color%}'
+PROMPT='%(?.%F{green}√.%F{red}?%?)%f %B%F{240}%1~%f%b %# '
